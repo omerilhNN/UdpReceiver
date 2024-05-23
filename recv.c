@@ -3,15 +3,14 @@
 #include <stdio.h>
 
 #pragma comment(lib, "ws2_32.lib")
-
-
+#define SIZE 1024
 
 int main() {
     WSADATA wsa_data;
     SOCKET socket_desc;
     struct sockaddr_in server_addr, client_addr;
     socklen_t clientlen = sizeof(client_addr);
-    char client_message[1024];
+    char client_message[SIZE];
     char* server_message = "Hello from server\n";
     int client_struct_length = sizeof(client_addr);
 
@@ -30,7 +29,6 @@ int main() {
 
     server_addr.sin_family = AF_INET;
     server_addr.sin_port = htons(23);
-    
     server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
 
     //Bind - server deðerleri
@@ -44,30 +42,28 @@ int main() {
     char client_ip[INET_ADDRSTRLEN];
     int client_port;
 
+    //File'ý append modunda açma iþlemini yap - eðer file yoksa recv.txt oluþtur
+    FILE* recvFile = fopen("recv.txt", "wb");
+    if (recvFile == NULL) {
+        printf("Failed to create file\n");
+        return 1;
+    }
     while (1) {
-        int bytes_recv = recvfrom(socket_desc, client_message, sizeof(client_message), 0, (struct sockaddr*) & client_addr, &clientlen);
+        int bytes_recv = recvfrom(socket_desc, client_message, SIZE , 0, (struct sockaddr*) &client_addr, &clientlen);
         if (bytes_recv < 0) {
             printf("RECV Error\n");
             closesocket(socket_desc);
             return 1;
         }
         ctr += bytes_recv;
-         //File'ý append modunda açma iþlemini yap - eðer file yoksa recv.txt oluþtur
-        FILE* recvFile = fopen("recv.txt", "a");
-        if (recvFile == NULL) {
-            printf("Failed to create file\n");
-            return 1;
-        }
-
-        //null terminate
-        client_message[bytes_recv] = '\0';
+        
         //recvfrom'dan aldýðýn recvBuf datasýný recvFile'a yaz.
         fwrite(client_message, 1, bytes_recv, recvFile);
-
         
         client_port = ntohs(client_addr.sin_port);
         inet_ntop(AF_INET, &(client_addr.sin_addr), client_ip, INET_ADDRSTRLEN);
-        printf("%s\n", client_message);
+        printf("%.*s\n", bytes_recv, client_message);
+
 
         memset(client_message, 0, sizeof(client_message));
     }
@@ -75,7 +71,7 @@ int main() {
 
     // Close the socket:
     closesocket(socket_desc);
-
+    fclose(recvFile);
     WSACleanup();
 
     return 0;
