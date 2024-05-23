@@ -1,0 +1,726 @@
+О╩©<?xml version="1.0" encoding="UTF-8"?>
+<ARINC_653_Module xsi:noNamespaceSchemaLocation=".\A653_Part1_revA.xsd" ModuleName="OFP APPL Config File" ModuleVersion="20-Apr-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" FileName="TestPartition" Criticality="LEVEL_A" SystemPartition="false" EntryPoint="main" Language="C" MemoryPoolSize="0xFF0000" StartInitial="true" InitialProcessLength="0x1000" >
+		<Sampling_Port Name="IO_A429_O_ADC_ALT_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_ADC_ALT_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_ADC_ALT_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_ADC_TAS_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_TAS_2_AGENT" MaxMessageSize="8" Direction=лллллллллллллллллллллллл┬╝2дЖО╩©<?xml version="1.0" encoding="UTF-8"?>
+<ARINC_653_Module xsi:noNamespaceSchemaLocation=".\A653_Part1_revA.xsd" ModuleName="OFP APPL Config File" ModuleVersion="20-Apr-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" FileName="TestPartition" Criticality="LEVEL_A" SystemPartition="false" EntryPoint="main" Language="C" MemoryPoolSize="0xFF0000" StartInitial="true" InitialProcessLength="0x1000" >
+		<Sampling_Port Name="IO_A429_O_ADC_ALT_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_ADC_ALT_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_ADC_ALT_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_ADC_TAS_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_TAS_2_AGENT" MaxMessageSize="8" Direction=лллллллллллллллллллллллл┬╝иЮВ"SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_ALT_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_ALT_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC1_PRE_ALT_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_ADC2_PRE_ALT_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_ADC1_IAS_REF_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC2_IAS_REF_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC1_VS_REF_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC2_VS_REF_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_IAS_1лллллллллллллллллллллллл┬╝иЮВ_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_IAS_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_IAS_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_VS_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_VS_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_VS_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_ALT_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_INHG_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_INHG_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="лллллллллллллллллллллллл┬╝иЮВIO_A429_O_ADC_BC_INHG_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_MB_HPA_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_MB_HPA_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_MB_HPA_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_DISCRETE_1_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_ADC_DISCRETE_1_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_ADC_DISCRETE_2_1_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_DISCRETE_2_2_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_BC_UNIT_3_AGENT" MaxMessageSize="8" Diлллллллллллллллллллллллл┬╝иЮВrection="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_TAT_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_ADC_TAT_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_ADC_TAT_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_ADC_SAT_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_ADC_SAT_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_ADC_MACH_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_MACH_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_FD_ROLL_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_FD_ROLL_AGENT" лллллллллллллллллллллллл┬╝иЮВMaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_FD_PITCH_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_FD_PITCH_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_FD_MODE1_AGENT" MaxMessageSize="48" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_FD_MODE1_AGENT" MaxMessageSize="48" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_FD_MODE2_AGENT" MaxMessageSize="60" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_FD_MODE2_AGENT" MaxMessageSize="60" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_WEIGHT_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_WEIGHT_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.5"лллллллллллллллллллллллл┬╝иЮВ/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_APPROACH_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_APPROACH_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_HEADING_SLC_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_HEADING_SLC_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_DISENGAGE_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_DISENGAGE_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_SYNCHRONIZE_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_SYNCHRONIZE_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_FD_Mлллллллллллллллллллллллл┬╝иЮВODE4_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_FD_MODE4_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_NAV_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_NAV_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_STEERING_VAL_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_STEERING_VAL_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_AP_ENGAGE_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_AP_ENGAGE_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_IAS_PROFILE_AGENT" MaxMessageSize="8" Direction="SOURCE" Refreshлллллллллллллллллллллллл┬╝иЮВRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_IAS_PROFILE_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_MAG_HDG_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_MAG_HDG_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS1_MAG_HDG_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS2_MAG_HDG_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_MAG_HDG_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_PITCH_ANGLE_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_PITCH_ANGLE_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429лллллллллллллллллллллллл┬╝иЮВ_O_AHRS_ROLL_ANGLE_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_ROLL_ANGLE_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_BODY_LATACC_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_BODY_LATACC_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.25"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_VER_ACC_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_VER_ACC_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_AHRS1_HDG_SWITCH_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_AHRS2_HDG_SWITCH_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_AHRS1_ATTITUDE_MODE_AGENT" MaxMessageSiлллллллллллллллллллллллл┬╝иЮВze="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_AHRS2_ATTITUDE_MODE_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_EIDS_TORQUE_ENG_1_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="2.0"/>
+		<Sampling_Port Name="IO_A429_O_EIDS_TORQUE_ENG_2_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="2.0"/>
+		<Sampling_Port Name="IO_A429_O_EIDS_TORQUE_ENG_3_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="2.0"/>
+		<Sampling_Port Name="IO_A429_O_EIDS_TORQUE_ENG_4_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="2.0"/>
+		<Sampling_Port Name="IO_A429_O_EIDS_RAM_FULL_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="5.0"/>
+		<Sampling_Port Name="IO_A429_O_RALT_BNR_ALT_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_RALT_BNR_ALT_SSM_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.лллллллллллллллллллллллл┬╝иЮВ5"/>
+		<Sampling_Port Name="IO_A429_O_TACAN1_BEAR_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TACAN2_BEAR_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TACAN1_DIST_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TACAN2_DIST_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TAWS_ALERT_STATUS_AGENT" MaxMessageSize="28" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TAWS_ALERT_IND1_AGENT" MaxMessageSize="52" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TAWS_ALERT_IND2_AGENT" MaxMessageSize="20" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TAWS_ALERT_IND3_AGENT" MaxMessageSize="20" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TAWS_RANGE_DISP_AGENT" MaxMeлллллллллллллллллллллллл┬╝иЮВssageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TAWS_GEAR_OVRD_ECHO_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_TCAS_DISP_CONT_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_TCAS_DISP_RANGE_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IO_A429_O_TCAS_SEL_SENS_LVL_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="2.5"/>
+		<Sampling_Port Name="IO_A429_O_TCAS_MAINT_DATA_AGENT" MaxMessageSize="52" Direction="SOURCE" RefreshRateSeconds="2.5"/>
+		<Sampling_Port Name="IO_A429_O_MKCP1_KNOB_INFO_AGENT" MaxMessageSize="48" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_MKCP2_KNOB_INFO_AGENT" MaxMessageSize="48" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IO_A429_O_ADC_SELECTED_AGENT" MaxMessageSize="2" Direction="SOURCE" RefreshRateSeconлллллллллллллллллллллллл┬╝иЮВds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_AHRS_SELECTED_AGENT" MaxMessageSize="2" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_FMS_SELECTED_AGENT" MaxMessageSize="2" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_A429_O_A429_MISCOMPARE_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_A429_MISCOMPARE_ALT_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_ADC1_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_ADC2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_AHRS1_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_AHRS2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_EIDS1_STATE_AGENT" MaxMessageSлллллллллллллллллллллллл┬╝иЮВize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_EIDS2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_RALT_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_TACAN1_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_TACAN2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_TAWS_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_TCAS_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_AFCS1_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_O_AFCS2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_Aлллллллллллллллллллллллл┬╝иЮВDF1_OUTPUT_DATA_AGENT" MaxMessageSize="48" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_ADF2_OUTPUT_DATA_AGENT" MaxMessageSize="48" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_GND_SPEED_1_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_GND_SPEED_2_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_WIND_VELOCITY_1_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_WIND_VELOCITY_2_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_GND_TRACK_1_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_GND_TRACK_2_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_TRUE_HDG_3_AGENT" MaxMessagлллллллллллллллллллллллл┬╝иЮВeSize="16" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_M1553_O_EGI1_ALIGN_TIME_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI2_ALIGN_TIME_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI1_HY_BLEND_RP_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI2_HY_BLEND_RP_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_TRUE_HDG_1_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_TRUE_HDG_2_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI1_MAG_HDG_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI2_MAG_HDG_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconлллллллллллллллллллллллл┬╝иЮВds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI1_FOM_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI2_FOM_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI1_NAV_SLN_ECHO_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI2_NAV_SLN_ECHO_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_HF_RADIO_STATUS_AGENT" MaxMessageSize="52" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_HF_KEY_STATUS_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_MIDS_DATA_AGENT" MaxMessageSize="28" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_MIDS_BEACON_ID_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_MIDS_RANGE_DATA_AGлллллллллллллллллллллллл┬╝иЮВENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_MIDS_BEARING_DATA_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR1_FREQ_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR2_FREQ_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR1_DATA_AGENT" MaxMessageSize="20" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR2_DATA_AGENT" MaxMessageSize="20" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR1_BEARING_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR2_BEARING_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR1_DEVIATION_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<лллллллллллллллллллллллл┬╝иЮВSampling_Port Name="IO_M1553_O_VOR2_DEVIATION_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR1_SELF_TEST_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR2_SELF_TEST_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_V_UHF1_FUNCTIONSTS_AGENT" MaxMessageSize="76" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_V_UHF2_FUNCTIONSTS_AGENT" MaxMessageSize="76" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_V_UHF1_MWODLOADSTS_AGENT" MaxMessageSize="60" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_V_UHF2_MWODLOADSTS_AGENT" MaxMessageSize="60" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_V_UHF1_TODSTS_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_V_UHлллллллллллллллллллллллл┬╝иЮВF2_TODSTS_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_WXR_CURSOR_POS_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_M1553_O_EGI_SELECTED_AGENT" MaxMessageSize="2" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_M1553_MISCOMPARE_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_PRESENT_POSITION_AGENT" MaxMessageSize="32" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_M1553_O_NAVAID_PP_SOLN_1_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_NAVAID_PP_SOLN_2_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_NAVAID_PP_SOLN_3_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_ADF1_STATE_AGENT" MaxMessageSize="1" Directionлллллллллллллллллллллллл┬╝иЮВ="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_ADF2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_CDU1_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_CDU2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI1_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_EGI2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_HF_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_MIDS_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR1_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_VOR2_STATE_AGENT" Mлллллллллллллллллллллллл┬╝иЮВaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_V_UHF1_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_V_UHF2_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_WXR_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_O_PRESENT_ALL_POS_AGENT" MaxMessageSize="96" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_M1553_O_PRESENT_ALL_PEES_AGENT" MaxMessageSize="56" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_WXR_CCC_SW_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_SIGNAL_O_WOW_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_SIGNAL_O_VUHF1_GUARD_SW_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Samplлллллллллллллллллллллллл┬╝иЮВing_Port Name="IO_SIGNAL_O_VUHF2_GUARD_SW_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_VUHF1_TR_IND_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_VUHF2_TR_IND_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_GPWS_INHIB_ECHO_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_AHRS1_DG_SEL_ECHO_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_AHRS2_DG_SEL_ECHO_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_AHRS1_FDU_SEL_ECHO_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_AHRS2_FDU_SEL_ECHO_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_AHRS1_MMT_лллллллллллллллллллллллл┬╝иЮВSEL_ECHO_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_O_AHRS2_MMT_SEL_ECHO_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_AFCS1_DIAGNOSTICS_AGENT" MaxMessageSize="256" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_AFCS2_DIAGNOSTICS_AGENT" MaxMessageSize="256" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_ALERT_AGENT" MaxMessageSize="52" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="DEVMGR_A_O_CDU1_VERSION_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_CDU2_VERSION_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_SATELLITE_NUM_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_SATELLITE_NUM_AGENT" MaxMessageSize="1" Direction=лллллллллллллллллллллллл┬╝иЮВ"SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_ALIGN_TYPE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_ALIGN_TYPE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_OPER_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_OPER_STATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_VERSION_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_VERSION_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVлллллллллллллллллллллллл┬╝иЮВMGR_A_O_EGI1_MAINT_CMD_STAT_AGENT" MaxMessageSize="2" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_MAINT_CMD_STAT_AGENT" MaxMessageSize="2" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_CONFIG_CONTROL_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_CONFIG_CONTROL_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_YAW_BS_ANGLE_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_YAW_BS_ANGLE_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_PITCH_BS_ANGLE_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_PITCH_BS_ANGLE_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_ROLL_BSлллллллллллллллллллллллл┬╝иЮВ_ANGLE_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_ROLL_BS_ANGLE_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_ORIENT_STATUS_AGENT" MaxMessageSize="6" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_ORIENT_STATUS_AGENT" MaxMessageSize="6" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_EMB_MODE_AVAIL_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_EMB_MODE_AVAIL_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_GPS_MODE_AVAIL_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_GPS_MODE_AVAIL_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_INS_MODE_AVAIL_AGENT" MaxMeлллллллллллллллллллллллл┬╝иЮВssageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_INS_MODE_AVAIL_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_FUNC_CODE_STAT_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_FUNC_CODE_STAT_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI1_FUNC_CODE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_EGI2_FUNC_CODE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_MFD1_ETI_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DEVMGR_A_O_MFD2_ETI_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DEVMGR_A_O_MFD3_ETI_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.5"/>лллллллллллллллллллллллл┬╝иЮВ
+		<Sampling_Port Name="DEVMGR_A_O_MFD4_ETI_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DEVMGR_A_O_TCAS_VS_LIMIT_AGENT" MaxMessageSize="36" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_TCAS_INT_FILE_DATA_AGENT" MaxMessageSize="968" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="DEVMGR_A_O_TCAS_VS_FAIL_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_TCAS_OPER_SUBSTATE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_AHRS1_MODE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_O_AHRS2_MODE_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_D_O_V_UHF1_TODACQSTS_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_D_O_V_UHF2_TODACQSTS_AGENT" лллллллллллллллллллллллл┬╝иЮВMaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_D_O_V_UHF1_VERSION_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_D_O_V_UHF2_VERSION_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="APPL_MON_O_APPL_VERSION_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="APPL_MON_O_MPGS_ICD_VERSION_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IPCA_O_1_DISP_VERSION_R_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_2_DISP_VERSION_R_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_MAP_VERSION_R_AGENT" MaxMessageSize="7" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="CCC_MGR_O_CCC_MODE_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Samлллллллллллллллллллллллл┬╝иЮВpling_Port Name="CCC_MGR_O_TOD_POWER_UP_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_O_CCC_ID_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="CCC_MGR_O_DATE_TIME_AGENT" MaxMessageSize="28" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="CCC_MGR_O_CDU_LU_E_AGENT" MaxMessageSize="1457" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_O_MFD_LU_E_AGENT" MaxMessageSize="94" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_O_CDU_LR_E_AGENT" MaxMessageSize="70" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_O_MFD_LR_E_AGENT" MaxMessageSize="2340" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_O_FMS_DL_PARIN_AGENT" MaxMessageSize="60" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="CCC_MGR_O_TAIL_NUMBER_PARIN_AGENT" MaxMessageSize="10" Direction="SOURCE" Refлллллллллллллллллллллллл┬╝иЮВreshRateSeconds="0.2"/>
+		<Sampling_Port Name="CCC_MGR_O_MFD_PARIN_AGENT" MaxMessageSize="572" Direction="SOURCE" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_I_TAWS_DH_MDA_DATA_AGENT" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_I_EGI_SELECTION_AGENT" MaxMessageSize="2" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_I_ADC_SELECTION_AGENT" MaxMessageSize="2" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_I_AHRS_SELECTION_AGENT" MaxMessageSize="2" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_A429_I_FMS_SELECTION_AGENT" MaxMessageSize="1" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_I_POS_SRC_SELECTION_AGENT" MaxMessageSize="1" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_CDU1_ANNUN_CONTROL_AGENT" MaxMessageSize="16" Direction="DESTINATION" RefreshRateSeconds="0.1"/лллллллллллллллллллллллл┬╝иЮВ>
+		<Sampling_Port Name="DEVMGR_A_I_CDU2_ANNUN_CONTROL_AGENT" MaxMessageSize="16" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IPCA_I_FORMAT_MFD_1_R_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FORMAT_MFD_2_R_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FORMAT_MFD_3_R_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FORMAT_MFD_4_R_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_FL_1_R_AGENT" MaxMessageSize="940" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_FL_2_R_AGENT" MaxMessageSize="940" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_MFL_IBIT_ENGINE_1_R_AGENT" MaxMessageSize="3476" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_Iлллллллллллллллллллллллл┬╝иЮВ_MFL_IBIT_ENGINE_2_R_AGENT" MaxMessageSize="3476" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_MFL_IBIT_AFCS_1_R_AGENT" MaxMessageSize="512" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_MFL_IBIT_AFCS_2_R_AGENT" MaxMessageSize="512" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_MFL_IBIT_EGI_1_R_AGENT" MaxMessageSize="48" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_MFL_IBIT_EGI_2_R_AGENT" MaxMessageSize="48" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_MFD_MESSAGE_1_R_AGENT" MaxMessageSize="52" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_MFD_MESSAGE_2_R_AGENT" MaxMessageSize="52" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_VER_1_R_AGENT" MaxMessageSize="520" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_VER_2_R_AGENлллллллллллллллллллллллл┬╝иЮВT" MaxMessageSize="520" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_PAR_1_R_AGENT" MaxMessageSize="1170" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_PAR_2_R_AGENT" MaxMessageSize="1170" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_PFL_1_R_AGENT" MaxMessageSize="1096" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_PFL_2_R_AGENT" MaxMessageSize="1096" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_PFL_FPL_ANLS_1_R_AGENT" MaxMessageSize="1672" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_PFL_FPL_ANLS_2_R_AGENT" MaxMessageSize="1672" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_MFL_1_R_AGENT" MaxMessageSize="912" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FAULT_MFL_2_R_AGENT" MaxMessageSizлллллллллллллллллллллллл┬╝иЮВe="912" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_RADAR_SECTOR_1_R_AGENT" MaxMessageSize="24" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_RADAR_SECTOR_2_R_AGENT" MaxMessageSize="24" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_TCAS_DATA_1_R_AGENT" MaxMessageSize="684" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_TCAS_DATA_2_R_AGENT" MaxMessageSize="684" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_TAWS_DATA_1_R_AGENT" MaxMessageSize="60" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_TAWS_DATA_2_R_AGENT" MaxMessageSize="60" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_TAWS_AFPL_INFO_1_R_AGENT" MaxMessageSize="17572" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_TAWS_AFPL_INFO_2_R_AGENT" MaxMessageSize="17572" Direction="DESTIлллллллллллллллллллллллл┬╝иЮВNATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_MFD_DISP_STATE_R_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_PFD_DATA_1_R_AGENT" MaxMessageSize="892" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_PFD_DATA_2_R_AGENT" MaxMessageSize="892" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_COMMANDED_HEADING_R_AGENT" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_T2CAS_SELECTION_R_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="DEVMGR_A_I_CDU1_SCR_AGENT" MaxMessageSize="5712" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_CDU2_SCR_AGENT" MaxMessageSize="5712" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IPCA_I_OSS_TYPES_1_R_AGENT" MaxMessageSize="768" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+лллллллллллллллллллллллл┬╝иЮВ		<Sampling_Port Name="IPCA_I_OSS_TYPES_2_R_AGENT" MaxMessageSize="768" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_OSS_TYPES_3_R_AGENT" MaxMessageSize="768" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_OSS_TYPES_4_R_AGENT" MaxMessageSize="768" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_AHRS_DATA_1_R_AGENT" MaxMessageSize="20" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_AHRS_DATA_2_R_AGENT" MaxMessageSize="20" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_RCMD_VV_DATA_1_R_AGENT" MaxMessageSize="12" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_RCMD_VV_DATA_2_R_AGENT" MaxMessageSize="12" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_SIGNAL_I_AHRS1_FDU_SEL_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_I_лллллллллллллллллллллллл┬╝иЮВAHRS2_FDU_SEL_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_I_AHRS1_MMT_SEL_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_I_AHRS2_MMT_SEL_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_I_AHRS1_SLEW_LEFT_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_I_AHRS2_SLEW_LEFT_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_I_AHRS1_SLEW_RIGHT_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_SIGNAL_I_AHRS2_SLEW_RIGHT_AGENT" MaxMessageSize="4" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IPCA_I_CONF_SET_MAP_R_AGENT" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_A429_I_SEL_HDG_TYPEлллллллллллллллллллллллл┬╝иЮВ_AGENT" MaxMessageSize="1" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IPCA_I_SLC_NAV_SRC_1_R_AGENT" MaxMessageSize="2" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_SLC_NAV_SRC_2_R_AGENT" MaxMessageSize="2" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_M1553_I_SLC_NAV_PAIRING_1_AGENT" MaxMessageSize="1" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_I_SLC_NAV_PAIRING_2_AGENT" MaxMessageSize="1" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_BACK_LOC_1_AGENT" MaxMessageSize="2" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_BACK_LOC_2_AGENT" MaxMessageSize="2" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_AFCS1_CRS_ERR_AGENT" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_AFCS2_CRS_ERR_AGENT" MaxMessageSize="8"лллллллллллллллллллллллл┬╝иЮВ Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_AFCS1_HDG_ERR_AGENT" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_AFCS2_HDG_ERR_AGENT" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_AFCS1_CRS_DEV_AGENT" MaxMessageSize="28" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="DEVMGR_A_I_AFCS2_CRS_DEV_AGENT" MaxMessageSize="28" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IPCA_I_DH_MDA_SETTING_R_AGENT" MaxMessageSize="12" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IO_M1553_I_TUNED_NAVAID_NFO_1_AGENT" MaxMessageSize="32" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_I_TUNED_NAVAID_NFO_2_AGENT" MaxMessageSize="32" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IO_M1553_I_TUNED_NAVAID_NFO_3_AGENT" MaxMessageSize="32" Dirлллллллллллллллллллллллл┬╝иЮВection="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_I_CDU_LU_AGENT" MaxMessageSize="1457" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_I_MFD_LU_AGENT" MaxMessageSize="94" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_I_CDU_LR_AGENT" MaxMessageSize="70" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="CCC_MGR_I_MFD_LR_AGENT" MaxMessageSize="2340" Direction="DESTINATION" RefreshRateSeconds="0.1"/>
+		<Sampling_Port Name="IPCA_I_DL_ALIVE_R_AGENT" MaxMessageSize="1" Direction="DESTINATION" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_I_FPL_ANALYSIS_REQ_1_R_AGENT" MaxMessageSize="3" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FPL_ANALYSIS_REQ_2_R_AGENT" MaxMessageSize="3" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_I_FPL_ANLYS_OPTIONS_R_AGENT" MaxMessageSize="24" Direction="DESTINATION" RefreshRateSeconds="0.2"/лллллллллллллллллллллллл┬╝иЮВ>
+		<Sampling_Port Name="IPCA_I_WIF_TO_LDG_SPD_BUG_R_AGENT" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_AFPL_MAP_R_AGENT" MaxMessageSize="15864" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_FMS_SYSTEM_STATES_R_AGENT" MaxMessageSize="92" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_OWN_DATA_R_AGENT" MaxMessageSize="112" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_ACTIVE_PHASE_DATA_R_AGENT" MaxMessageSize="536" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_FP_DATA_R_AGENT" MaxMessageSize="76" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_DEST_WPT_DATA_R_AGENT" MaxMessageSize="28" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_NEXT_WPT_DATA_R_AGENT" MaxMessageSize="12" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_DB_MARK_WPT_R_AGENT" MaxMessageSizлллллллллллллллллллллллл┬╝иЮВe="1208" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_OCEANING_R_AGENT" MaxMessageSize="24" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_AFPL_CDU_R_AGENT" MaxMessageSize="26456" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_FPL_CDU_1_R_AGENT" MaxMessageSize="26456" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_FPL_CDU_2_R_AGENT" MaxMessageSize="26456" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_FPL_CDU_3_R_AGENT" MaxMessageSize="26456" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_FPLBANK_FPLNAME_R_AGENT" MaxMessageSize="2804" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_FPLBANK_MPNAME_R_AGENT" MaxMessageSize="3604" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_AFPL_ALTFPL_R_AGENT" MaxMessageSize="160" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Poлллллллллллллллллллллллл┬╝иЮВrt Name="IPCA_O_FMS_SENS_OUT_R_AGENT" MaxMessageSize="32" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_FMS_CAUTIONS_R_AGENT" MaxMessageSize="11" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IPCA_O_FMS_ADVISORIES_R_AGENT" MaxMessageSize="16" Direction="SOURCE" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="IPCA_O_VUHF1_PRST_R_AGENT" MaxMessageSize="1584" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_VUHF2_PRST_R_AGENT" MaxMessageSize="1584" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_HF_PRST_R_AGENT" MaxMessageSize="480" Direction="SOURCE" RefreshRateSeconds="-1.0"/>
+		<Sampling_Port Name="IPCA_O_FPL_ANALYSIS_RESP_1_R_AGENT" MaxMessageSize="1636" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_FPL_ANALYSIS_RESP_2_R_AGENT" MaxMessageSize="1636" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_FPL_ANALYSIS_STATUS_R_AGENT" MaxMessageSize="лллллллллллллллллллллллл┬╝иЮВ10" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_FMS_ALIVE_R_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_AFPL_RELATED_DATA_R_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_WMM_MAG_VAR_R_AGENT" MaxMessageSize="8" Direction="SOURCE" RefreshRateSeconds="0.2"/>
+		<Sampling_Port Name="IPCA_O_MAP_DRAW_ACTIVE_R_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="1.0"/>
+		<Sampling_Port Name="IPCA_O_DTS_STATE_R_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="2.0"/>
+		<Sampling_Port Name="IPCA_O_DTS_DEVICE_STATUS_R_AGENT" MaxMessageSize="4" Direction="SOURCE" RefreshRateSeconds="3.0"/>
+		<Sampling_Port Name="IPCA_O_DTS_DATA_AVAIL_R_AGENT" MaxMessageSize="40" Direction="SOURCE" RefreshRateSeconds="3.0"/>
+		<Sampling_Port Name="IPCA_O_FS_DATA_AVAIL_R_AGENT" MaxMessageSize="20" Direction="SOURCE" RefreshRateSeconds="3.0"/>
+		<Sampling_Port Name="IPCAлллллллллллллллллллллллл┬╝иЮВ_O_DATA_LOAD_STATUS_R_AGENT" MaxMessageSize="1" Direction="SOURCE" RefreshRateSeconds="2.0"/>
+		<Queuing_Port Name="IO_M1553_O_DELTA_CORR_RESP_AGENT" MaxMessageSize="4" Direction="SOURCE" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_O_ADF1_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_ADF2_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_ADF_RSP_1_AGENT" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="6"/>
+		<Queuing_Port Name="DEVMGR_A_O_ADF_RSP_2_AGENT" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="6"/>
+		<Queuing_Port Name="DEVMGR_A_O_AFCS_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_CDU1_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_CDU2_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVлллллллллллллллллллллллл┬╝иЮВMGR_A_O_CDU1_KEY_AGENT" MaxMessageSize="16" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_CDU2_KEY_AGENT" MaxMessageSize="16" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_EGI_RSP_1_AGENT" MaxMessageSize="3" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_EGI_RSP_2_AGENT" MaxMessageSize="3" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_EGI1_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_EGI2_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_MFD1_BEZELDATA_DL_AGENT" MaxMessageSize="16" Direction="SOURCE" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_A_O_MFD2_BEZELDATA_DL_AGENT" MaxMessageSize="16" Direction="SOURCE" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_A_O_MFD3_BEZELDATA_DL_AGENT" MaxMessageSize="16" Direction="SOURCE" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_A_O_MFDлллллллллллллллллллллллл┬╝иЮВ4_BEZELDATA_DL_AGENT" MaxMessageSize="16" Direction="SOURCE" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_A_O_MIDS_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_MIDS_RSP_1_AGENT" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_A_O_MIDS_RSP_2_AGENT" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_A_O_TAWS_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_TAWS_RSP_1_AGENT" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="10"/>
+		<Queuing_Port Name="DEVMGR_A_O_TAWS_RSP_2_AGENT" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="10"/>
+		<Queuing_Port Name="DEVMGR_A_O_VOR1_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_VOR2_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_VOR_RSP_1_AGлллллллллллллллллллллллл┬╝иЮВENT" MaxMessageSize="3" Direction="SOURCE" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_A_O_VOR_RSP_2_AGENT" MaxMessageSize="3" Direction="SOURCE" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_A_O_WXR_MARK_POINT_AGENT" MaxMessageSize="24" Direction="SOURCE" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_O_AHRS_RSP_1_AGENT" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_AHRS_RSP_2_AGENT" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_AHRS_RSP_3_AGENT" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_O_AHRS_RSP_4_AGENT" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_ADC1_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_ADC2_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_CVDR_TEST_STATUS_AGENT" MaxMessageSize="лллллллллллллллллллллллл┬╝иЮВ1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_EIDS_READ_RSP_AGENT" MaxMessageSize="12" Direction="SOURCE" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_O_EIDS_SAVE_RSP_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_O_EIDS_SNAPSHOT_AGENT" MaxMessageSize="1264" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_EIDS_EXCEEDANCE_AGENT" MaxMessageSize="1300" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_HF_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_HF_RSP_1_AGENT" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="3"/>
+		<Queuing_Port Name="DEVMGR_D_O_HF_RSP_2_AGENT" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="3"/>
+		<Queuing_Port Name="DEVMGR_D_O_RALT_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_V_UHF1_TEST_STATUS_AGENT" MaxMessageSize="1" Direcлллллллллллллллллллллллл┬╝иЮВtion="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_V_UHF2_TEST_STATUS_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_O_V_UHF_RSP_1_AGENT" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="30"/>
+		<Queuing_Port Name="DEVMGR_D_O_V_UHF_RSP_2_AGENT" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="30"/>
+		<Queuing_Port Name="CCC_MGR_O_MFL_AGENT" MaxMessageSize="48" Direction="SOURCE" MaxNbMessages="100"/>
+		<Queuing_Port Name="CCC_MGR_O_PFL_AGENT" MaxMessageSize="188" Direction="SOURCE" MaxNbMessages="100"/>
+		<Queuing_Port Name="CCC_MGR_O_FL_AGENT" MaxMessageSize="44" Direction="SOURCE" MaxNbMessages="100"/>
+		<Queuing_Port Name="CCC_MGR_O_FAULT_SAVE_RESPONSE_AGENT" MaxMessageSize="4" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="CCC_MGR_O_PAR_RSP_1_AGENT" MaxMessageSize="36" Direction="SOURCE" MaxNbMessages="1"/>
+		<Queuing_Port Name="CCC_MGR_O_PAR_RSP_2_AGENT" MaxMessageSize="36" Direction="SOURCE" MaxNbMessages="1"/>
+		<Queлллллллллллллллллллллллл┬╝иЮВuing_Port Name="CCC_MGR_O_PAR_SYNC_RSP_AGENT" MaxMessageSize="1" Direction="SOURCE" MaxNbMessages="1"/>
+		<Queuing_Port Name="IPCA_I_WXR_MARK_POINT_DL_R_AGENT" MaxMessageSize="16" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_CDU1_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_CDU2_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_ADF1_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_ADF2_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_VOR1_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_VOR2_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_AFCS_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" Mлллллллллллллллллллллллл┬╝иЮВaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_MIDS_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_CVDR_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_ADC1_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_ADC2_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_RALT_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_HF_TEST_REQ_AGENT" MaxMessageSizлллллллллллллллллллллллл┬╝иЮВe="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI1_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI2_TEST_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="IPCA_I_CDU_MARK_POINT_REQ_R_AGENT" MaxMessageSize="40" Direction="DESTINATION" MaxNbMessages="5"/>
+		<Queuing_Port Name="DEVMGR_A_I_AHRS1_HDG_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_AHRS2_HDG_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_TERR_INH_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_GPWS_INH_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_FLAP_OVRD_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name=лллллллллллллллллллллллл┬╝иЮВ"DEVMGR_A_I_TAWS_GEAR_OVRD_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_GS_CNL_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_AUDIO_SUPP_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_BCKS_SLCT_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_STEEP_APPR_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_CALL_DIS_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_TAWS_RANGE_SET_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_MIDS_CHANNEL_REQ_AGENT" MaxMessageSize="3" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_MIDS_ANTENNA_REQ_AGENT" MaxMessageSize="лллллллллллллллллллллллл┬╝иЮВ2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_MIDS_TR_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_MIDS_MODE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_HF_FREQ_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_HF_MODE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_HF_SQL_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_FREQ_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_FREQ_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_MODE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_MODEлллллллллллллллллллллллл┬╝иЮВ_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_SQL_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_SQL_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_MODUL_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_MODUL_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_MAR_PRST_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_MAR_PRST_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_MAR_STA_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_MAR_STA_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" Maxлллллллллллллллллллллллл┬╝иЮВNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_MAR_CH_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_MAR_CH_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_COMP_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_COMP_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_PWR_LVL_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_PWR_LVL_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_DAY_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_DAY_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_TOD_REQлллллллллллллллллллллллл┬╝иЮВ_AGENT" MaxMessageSize="3" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_TOD_REQ_AGENT" MaxMessageSize="3" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_TONE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_TONE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_MWOD_REQ_AGENT" MaxMessageSize="28" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_MWOD_REQ_AGENT" MaxMessageSize="28" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_AMWOD_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_AMWOD_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF1_FMTNET_REQ_AGENT" MaxMessageSize="68" Direction="DESTINATION" MaxNbMessages="лллллллллллллллллллллллл┬╝иЮВ2"/>
+		<Queuing_Port Name="DEVMGR_D_I_V_UHF2_FMTNET_REQ_AGENT" MaxMessageSize="68" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="CCC_MGR_I_FAULT_SAVE_AGENT" MaxMessageSize="4" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_SELECTED_NAV_DB_1_R_AGENT" MaxMessageSize="4" Direction="DESTINATION" MaxNbMessages="5"/>
+		<Queuing_Port Name="IPCA_I_SELECTED_NAV_DB_2_R_AGENT" MaxMessageSize="4" Direction="DESTINATION" MaxNbMessages="5"/>
+		<Queuing_Port Name="IPCA_I_BULLSEYE_REQ_R_AGENT" MaxMessageSize="48" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_DZ_OPER_REQ_R_AGENT" MaxMessageSize="168" Direction="DESTINATION" MaxNbMessages="4"/>
+		<Queuing_Port Name="IPCA_I_FPLBANK_REQ_R_AGENT" MaxMessageSize="36" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_RNP_UPDATE_REQ_R_AGENT" MaxMessageSize="12" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_FPL_REQ_R_AGENT" MaxMessageSize="272" Direction="DESTINAлллллллллллллллллллллллл┬╝иЮВTION" MaxNbMessages="10"/>
+		<Queuing_Port Name="DEVMGR_A_I_ADF1_FREQ_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_ADF2_FREQ_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_ADF1_TONE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_ADF2_TONE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_ADF1_MODE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_ADF2_MODE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_VOR1_FREQ_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_VOR2_FREQ_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_VOR1_MB_REQ_AGENT" MaxMessagлллллллллллллллллллллллл┬╝иЮВeSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_VOR2_MB_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_FPL_CONFIG_REQ_R_AGENT" MaxMessageSize="548" Direction="DESTINATION" MaxNbMessages="5"/>
+		<Queuing_Port Name="IPCA_I_TAKEOFF_REQ_R_AGENT" MaxMessageSize="120" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_LANDING_REQ_R_AGENT" MaxMessageSize="84" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_WPT_OPER_REQ_R_AGENT" MaxMessageSize="440" Direction="DESTINATION" MaxNbMessages="4"/>
+		<Queuing_Port Name="IPCA_I_ARPT_OPER_REQ_R_AGENT" MaxMessageSize="104" Direction="DESTINATION" MaxNbMessages="15"/>
+		<Queuing_Port Name="IPCA_I_CALC_POS_BY_REF_REQ_R_AGENT" MaxMessageSize="76" Direction="DESTINATION" MaxNbMessages="4"/>
+		<Queuing_Port Name="IPCA_I_LOAD_UPLOAD_REQ_R_AGENT" MaxMessageSize="16" Direction="DESTINATION" MaxNbMessages="4"/>
+		<Queuing_Port Name="IPCA_I_FPL_Oлллллллллллллллллллллллл┬╝иЮВPER_REQ_R_AGENT" MaxMessageSize="36" Direction="DESTINATION" MaxNbMessages="10"/>
+		<Queuing_Port Name="IPCA_I_CARP_OPER_REQ_R_AGENT" MaxMessageSize="276" Direction="DESTINATION" MaxNbMessages="4"/>
+		<Queuing_Port Name="IPCA_I_CARP_CONFIRM_REQ_R_AGENT" MaxMessageSize="12" Direction="DESTINATION" MaxNbMessages="4"/>
+		<Queuing_Port Name="DEVMGR_D_I_EIDS_READ_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_EIDS_SAVE_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_D_I_EIDS_SNAPSHOT_REQ_AGENT" MaxMessageSize="4" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_D_I_EIDS_EXCEEDANCE_REQ_AGENT" MaxMessageSize="4" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI1_MODE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI2_MODE_REQ_AGENT" MaxMessageSize="2" Direction="DESTINATION" MaxNbMessages=лллллллллллллллллллллллл┬╝иЮВ"2"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI1_PP_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI2_PP_REQ_AGENT" MaxMessageSize="8" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI1_MAINT_CMD_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI2_MAINT_CMD_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="1"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI1_FUNC_CODE_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="DEVMGR_A_I_EGI2_FUNC_CODE_REQ_AGENT" MaxMessageSize="1" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_PRST_UPDATE_REQ_R_AGENT" MaxMessageSize="20" Direction="DESTINATION" MaxNbMessages="2"/>
+		<Queuing_Port Name="IPCA_I_THREAT_BANK_REQ_R_AGENT" MaxMessageSize="60" Direction="DESTINATION" MaxNbMessages="10"/>
+		<Queuing_Port Name="CCC_MGR_I_PAR_REQ_1_AGENT" MaxMessageSizeлллллллллллллллллллллллл┬╝иЮВze="8" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS2_FD_ROLL" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS1_FD_PITCH" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS2_FD_PITCH" MaxMessageSize="8" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS1_FD_MODE1" MaxMessageSize="48" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS2_FD_MODE1" MaxMessageSize="48" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS1_FD_MODE2" MaxMessageSize="60" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS2_FD_MODE2" MaxMessageSize="60" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS1_WEIGHT" MaxMessageSize="16" Direction="DESTINATION" RefreshRateSeconds="0.5"/>
+		<Sampling_Port Name="DL_I_AFCS2_WEIGHT" MaxMessageлллллллллллллллллллллллл┬╝иЮВ Name="DL_O_MIDS_CHANNEL_REQ" MaxMessageSize="3" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_MIDS_ANTENNA_REQ" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_MIDS_TR_REQ" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_MIDS_MODE_REQ" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_HF_FREQ_REQ" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_HF_MODE_REQ" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_HF_SQL_REQ" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_V_UHF1_FREQ_REQ" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_V_UHF2_FREQ_REQ" MaxMessageSize="8" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_V_UHF1_MODE_REQ" MaxMessageSize="2" Direction="SOURCE" MaxNbMessages="2"/>
+		<Queuing_Port Name="DL_O_V_UHF2_MOлллллллллллллллллллллллл┬╝иЮВtionIdentifier="0x0001" PartitionName="TestPartition" PortName="IO_A429_O_AFCS2_IAS_PROFILE_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_AFCS2_IAS_PROFILE"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="113" ChannelName="AHRS_MAG_HDG_">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IO_A429_O_AHRS_MAG_HDG_1_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_AHRS_MAG_HDG_1"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="114" ChannelName="AHRS_MAG_HDG_">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IO_A429_O_AHRS_MAG_HDG_2_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_AHRS_MAG_HDG_2"/>
+			</Destination>
+		</Channel>
+		<Channel Channлллллллллллллллллллллллл┬╝иЮВL_I_V_UHF2_MWODLOADSTS"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="336" ChannelName="V_UHF_TODSTS">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IO_M1553_O_V_UHF1_TODSTS_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_V_UHF1_TODSTS"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="337" ChannelName="V_UHF_TODSTS">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IO_M1553_O_V_UHF2_TODSTS_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_V_UHF2_TODSTS"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="340" ChannelName="WXR_CURSOR_POS">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IO_M1553_O_WXR_CURSOR_POS_AGENT"/>
+			</Source>
+			<Destinationлллллллллллллллллллллллл┬╝иЮВ	</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_VOR2_TEST_STATUS"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="675" ChannelName="VOR_RSP_">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="DEVMGR_A_O_VOR_RSP_1_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_VOR_RSP_1"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="676" ChannelName="VOR_RSP_">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="DEVMGR_A_O_VOR_RSP_2_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_VOR_RSP_2"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="693" ChannelName="WXR_MARK_POINT">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="Tesлллллллллллллллллллллллл┬╝иЮВ
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IO_A429_I_FMS_SELECTION_AGENT"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="971" ChannelName="POS_SRC_SELECTION">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_O_POS_SRC_SELECTION"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IO_M1553_I_POS_SRC_SELECTION_AGENT"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="972" ChannelName="FAULT_SAVE">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_O_FAULT_SAVE"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="CCC_MGR_I_FAULT_SAVE_AGENT"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="973" ChannelName="SELECTED_NAV_DB_">
+			<Source>
+				<Standard_Partiлллллллллллллллллллллллл┬╝иЮВ" ChannelName="CARP_CONFIRM_REQ">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_O_CARP_CONFIRM_REQ"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IPCA_I_CARP_CONFIRM_REQ_R_AGENT"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="1058" ChannelName="EIDS_READ_REQ">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_O_EIDS_READ_REQ"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="DEVMGR_D_I_EIDS_READ_REQ_AGENT"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="1059" ChannelName="EIDS_SAVE_REQ">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_O_EIDS_SAVE_REQ"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="DEVMGR_D_лллллллллллллллллллллллл┬╝иЮВVAR_R_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_WMM_MAG_VAR"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="1172" ChannelName="MAP_DRAW_ACTIVE">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IPCA_O_MAP_DRAW_ACTIVE_R_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_MAP_DRAW_ACTIVE"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="1173" ChannelName="DTS_STATE">
+			<Source>
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="IPCA_O_DTS_STATE_R_AGENT"/>
+			</Source>
+			<Destination>
+				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_I_DTS_STATE"/>
+			</Destination>
+		</Channel>
+		<Channel ChannelIdentifier="1177" ChannelName="LOAD_UPLOAD_RESP">
+			<Source>
+				<Standard_Partition PartitionIdentлллллллллллллллллллллллл┬╝иЮВ
