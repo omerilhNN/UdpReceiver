@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 #pragma comment(lib, "ws2_32.lib")
-#define SIZE 1024
+#define SIZE 8192
 
 int main() {
     WSADATA wsa_data;
@@ -48,26 +48,31 @@ int main() {
         printf("Failed to create file\n");
         return 1;
     }
+ 
     while (1) {
-        int bytes_recv = recvfrom(socket_desc, client_message, SIZE , 0, (struct sockaddr*) &client_addr, &clientlen);
-        if (bytes_recv < 0) {
-            printf("RECV Error\n");
-            closesocket(socket_desc);
-            return 1;
+        int bytes_recv = recvfrom(socket_desc, client_message, SIZE, 0, (struct sockaddr*)&client_addr, &clientlen);
+        if (bytes_recv == SOCKET_ERROR) {
+            printf("recvfrom() failed: %d\n", WSAGetLastError());
+            WSACleanup();
+            return -1;
+        }
+        if (bytes_recv <= 0) {
+            // Veri bitti, döngüden çýk
+            break;
         }
         ctr += bytes_recv;
-        
         //recvfrom'dan aldýðýn recvBuf datasýný recvFile'a yaz.
         fwrite(client_message, 1, bytes_recv, recvFile);
-        
+
+
         client_port = ntohs(client_addr.sin_port);
         inet_ntop(AF_INET, &(client_addr.sin_addr), client_ip, INET_ADDRSTRLEN);
         printf("%.*s\n", bytes_recv, client_message);
 
-
         memset(client_message, 0, sizeof(client_message));
+        
     }
-    printf("TOTAL BYTES:%d, from %s :: %d", ctr,client_ip,client_port);
+    printf("TOTAL BYTES:%d, from %s :: %d", ctr, client_ip, client_port);
 
     // Close the socket:
     closesocket(socket_desc);
