@@ -5956,4 +5956,8 @@
 				<Standard_Partition PartitionIdentifier="0x0108" PartitionName="DL" PortName="DL_O_LOG"/>
 			</Source>
 			<Destination>
-				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="APPL_MAINT_I_D
+				<Standard_Partition PartitionIdentifier="0x0001" PartitionName="TestPartition" PortName="APPL_MAINT_I_DL_LOG_AGENT"/>
+			</Destination>
+		</Channel>
+	</Connection_Table>
+</ARINC_653_Module>END     

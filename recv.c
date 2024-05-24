@@ -38,7 +38,7 @@ int main() {
         return -1;
     }
     printf("Bind Success\n");
-    int ctr = 0 ;
+    int ctr = 0 ; //recv ile alýnan bytelar toplamý için.
     char client_ip[INET_ADDRSTRLEN];
     int client_port;
 
@@ -48,31 +48,20 @@ int main() {
         printf("Failed to create file\n");
         return 1;
     }
- 
-    while (1) {
-        int bytes_recv = recvfrom(socket_desc, client_message, SIZE, 0, (struct sockaddr*)&client_addr, &clientlen);
-        if (bytes_recv == SOCKET_ERROR) {
-            printf("recvfrom() failed: %d\n", WSAGetLastError());
-            WSACleanup();
-            return -1;
-        }
-        if (bytes_recv <= 0) {
-            // Veri bitti, döngüden çýk
+    //SIZE boyutunda verileri socketten recvfrom ile al -> recvfrom okunan byte sayýsýný dönderir onu da bytes_recv'e atamasýný yap
+    int bytes_recv;
+    while ((bytes_recv = recvfrom(socket_desc, client_message, SIZE, 0, (struct sockaddr*)&client_addr, &clientlen))> 0) {
+        ctr += bytes_recv;
+        //recvfrom'dan aldýðýn bytes_recv boyutundaki datayý(client_message) recvFile'a yaz.
+        fwrite(client_message, 1, bytes_recv, recvFile);
+        if (strcmp(client_message, "END") == 0) {
             break;
         }
-        ctr += bytes_recv;
-        //recvfrom'dan aldýðýn recvBuf datasýný recvFile'a yaz.
-        fwrite(client_message, 1, bytes_recv, recvFile);
-
-
-        client_port = ntohs(client_addr.sin_port);
-        inet_ntop(AF_INET, &(client_addr.sin_addr), client_ip, INET_ADDRSTRLEN);
-        printf("%.*s\n", bytes_recv, client_message);
-
         memset(client_message, 0, sizeof(client_message));
-        
     }
-    printf("TOTAL BYTES:%d, from %s :: %d", ctr, client_ip, client_port);
+    client_port = ntohs(client_addr.sin_port);
+    inet_ntop(AF_INET, &(client_addr.sin_addr), client_ip, INET_ADDRSTRLEN);
+    printf("\nTOTAL BYTES RECV:%d, from %s :: %d", ctr, client_ip, client_port);
 
     // Close the socket:
     closesocket(socket_desc);
