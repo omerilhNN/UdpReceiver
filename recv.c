@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 #pragma comment(lib, "ws2_32.lib")
-#define SIZE 8192
+#define SIZE 512
 #define RECV_BUFSIZE 8192*10000
 #define TIMEO 20000
 //1024 gönderildðni bildiðin halde 512 oku
@@ -13,7 +13,7 @@ int main() {
     SOCKET socket_desc;
     struct sockaddr_in server_addr, client_addr;
     socklen_t clientlen = sizeof(client_addr);
-    char client_message[SIZE];
+    char client_message[1024];
     char* server_message = "Hello from server\n";
     int client_struct_length = sizeof(client_addr);
 
@@ -86,7 +86,7 @@ int main() {
     }
     //SIZE boyutunda verileri socketten recvfrom ile al -> recvfrom okunan byte sayýsýný dönderir onu da bytes_recv'e atamasýný yap
     int bytes_recv;
-    while ((bytes_recv = recvfrom(socket_desc, client_message,SIZE, 0, (struct sockaddr*)&client_addr, &clientlen))> 0) {
+    while ((bytes_recv = recvfrom(socket_desc, client_message,512, 0, (struct sockaddr*)&client_addr, &clientlen))> 0) {
         ctr += bytes_recv;
         //recvfrom'dan aldýðýn bytes_recv boyutundaki datayý(client_message) recvFile'a yaz.
         fwrite(client_message, 1, bytes_recv, recvFile);
